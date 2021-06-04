@@ -1,4 +1,4 @@
-﻿Feature: Profile
+﻿Feature: profile
 	As a seller
 	I want to login and update my profile
 
@@ -23,7 +23,7 @@ Then I should see message "deleted successfully"
 
 
 Scenario Outline: add personal details and description
-Given I login to the website and on profile page
+#Given I login to the website and on profile page
 When I select my Availability '<availability>'
 And I select my working hours "<hours>"
 And I select my earn target "<earnTarget>"
