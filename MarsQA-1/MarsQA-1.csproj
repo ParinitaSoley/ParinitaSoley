@@ -172,6 +172,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Feature\Login.feature" />
+    <None Include="Feature\profile.feature" />
     <None Include="libmongocrypt.dylib" />
     <None Include="libmongocrypt.so" />
     <None Include="SpecflowTests\Data\Data.xlsx" />

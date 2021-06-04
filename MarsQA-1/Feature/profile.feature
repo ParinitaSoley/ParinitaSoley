@@ -4,7 +4,7 @@
 
 @mytag
 Scenario: I can add update and delete my languages details
-Given I login to the website and on profile page
+#Given I login to the website and on profile page
 When I select languages tab
 And I click on add button
 And I enter language as "English"
